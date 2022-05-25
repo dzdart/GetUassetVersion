@@ -1,4 +1,4 @@
-file="E:\\Unreal5_project\\NEW_ClimaticSeason\\Content\\DynamicWeather\\Textures\\T_LightingPattern_01.uasset"
+import os
 file=input("将文件拖入这儿然后回车！")
 if file.endswith(".uasset"):
     new_data=""
@@ -16,3 +16,4 @@ if file.endswith(".uasset"):
     print("该文件相关版本信息如下\n",new_data[index-20:index+20])
 else:
     print("务必放入正确的uasset文件！")
+os.system("pause")
